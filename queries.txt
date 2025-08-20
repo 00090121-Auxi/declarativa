@@ -1,0 +1,54 @@
+Ejemplo: 
+1. ¿Qué come el león? 2. ¿Qué animales son comida del león? 3. ¿Es la vaca un mamífero?
+
+?- come(leon, X).
+X = carne.
+
+?- comida(X).
+X = vaca ;     ; para los demás. 
+X = cabra.
+
+?- mamifero(vaca).
+true.
+
+Ejercicio 1: 
+
+1. ¿Qué come el pingüino? 2. ¿Qué animales son comida del águila? 3. ¿Es el loro un ave?
+
+?- come(pinguino, X).
+X = pescado.
+
+?- comida(A).
+A = loro ;
+A = pinguino.
+
+?- ave(loro).
+true.
+
+Ejercicio 2:
+1. ¿Qué come el conejo? 2. ¿Qué animales son comida del gato? 3. ¿Es el perro un animal
+ doméstico?
+
+?- come(conejo, X).
+X = zanahoria.
+
+?- comida(G).
+A = perro ;
+A = conejo.
+
+?- domestico(perro).
+true.
+
+Ejercicio 3: 
+ 1. ¿Qué come el cerdo? 2. ¿Qué animales son comida del cerdo? 3. ¿Es la oveja un animal de
+ granja?
+
+?- come(cerdo, X).
+X = pasto.
+
+?- comida(C).
+A = pollo ;
+A = oveja.
+
+?- granja(oveja).
+true.
